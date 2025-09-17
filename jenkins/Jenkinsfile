@@ -31,5 +31,10 @@ pipeline {
                 echo 'Job Done!'
             }
         }
+        stage('Output') {
+            steps {
+                echo 'Job Success!'
+            }
+        }
     }
 }
